@@ -6,42 +6,40 @@ public class Transaction {
     private User recipient;
     private int transferAmount;
 
-    Transaction() {
+
+    public Transaction(User sender, User recipient, int transferAmount) {
         ID = UUID.randomUUID();
+        this.sender = sender;
+        this.recipient = recipient;
+        this.transferAmount = transferAmount;
     }
 
     public UUID getUID() {
         return ID;
     }
 
-    public User getSender() {
-        return sender;
-    }
-    public void setSender(User sender) {
-        this.sender = sender;
-    }
-
     public User getRecipient() {
         return recipient;
     }
-    public void setRecipient(User recipient) {
-        this.recipient = recipient;
+
+    public User getSender() {
+        return sender;
     }
 
     public int getTransferAmount() {
         return transferAmount;
     }
 
-    public void setTransferAmount(int transferAmount) {
+    public void doTransaction() {
         if (transferAmount >= 0) {
-            if (sender.getBalance() < transferAmount){
+            if (sender.getBalance() < transferAmount) {
                 System.err.print("\nНе хватает средств для отправки " + transferAmount);
                 System.exit(-1);
             }
             sender.setTransferType("OUTCOME");
             recipient.setTransferType("INCOME");
         } else {
-            if (Math.abs(recipient.getBalance()) < Math.abs(transferAmount) || recipient.getBalance() < Math.abs(transferAmount)){
+            if (Math.abs(recipient.getBalance()) < Math.abs(transferAmount) || recipient.getBalance() < Math.abs(transferAmount)) {
                 System.err.print("\nНе хватает средств для отправки " + transferAmount);
                 System.exit(-1);
             }
@@ -51,8 +49,6 @@ public class Transaction {
 
         sender.setBalance(sender.getBalance() - transferAmount);
         recipient.setBalance(recipient.getBalance() + transferAmount);
-
-        this.transferAmount = transferAmount;
     }
 
     public void printConsole() {
