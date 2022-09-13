@@ -8,9 +8,9 @@ public class Program {
         p2.printConsole();
         p3.printConsole();
 
-        Transaction t1 = new Transaction(p1, p2, 1000);
-        t1.doTransaction();
-        t1.printConsole();
+//        Transaction t1 = new Transaction(p1, p2, 1000);
+//        t1.doTransaction();
+//        t1.printConsole();
 
         UsersArrayList u1 = new UsersArrayList();
         u1.addUser(p1);
