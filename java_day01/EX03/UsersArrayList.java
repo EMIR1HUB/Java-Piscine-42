@@ -4,7 +4,7 @@ public class UsersArrayList implements UsersList {
 
     @Override
     public void addUser(User newUser) {     // способ гибкого массива
-        if (countUser > dataUser.length) {
+        if (countUser >= dataUser.length) {
             User[] temp = new User[dataUser.length * 2];
             for (int i = 0; i < dataUser.length; i++) {
                 temp[i] = dataUser[i];
