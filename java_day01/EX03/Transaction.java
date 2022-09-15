@@ -6,7 +6,6 @@ public class Transaction {
     private User recipient;
     private int transferAmount;
 
-
     public Transaction(User sender, User recipient, int transferAmount) {
         ID = UUID.randomUUID();
         this.sender = sender;
@@ -49,13 +48,18 @@ public class Transaction {
 
         sender.setBalance(sender.getBalance() - transferAmount);
         recipient.setBalance(recipient.getBalance() + transferAmount);
+
+        sender.getTransactionsLinkedList().addTransaction(this);
+        recipient.getTransactionsLinkedList().addTransaction(this);
     }
 
-    public void printConsole() {
-        System.out.print("\nID: " + getUID() +
+    @Override
+    public String toString() {
+        return "\n==================\nID: " + getUID() +
                 "\nSender: " + getSender().getName() + " " + -1 * getTransferAmount() + " " + getSender().getTransferType() +
                 "\nRecipient: " + getRecipient().getName() + " " + getTransferAmount() + " " + getRecipient().getTransferType() +
                 "\n\n||SENDER||\n" + "ID: " + sender.getID() + "\nName: " + sender.getName() + "\nBalance: " + sender.getBalance() +
-                "\n\n||RECIPIENT||\n" + "ID: " + recipient.getID() + "\nName: " + recipient.getName() + "\nBalance: " + recipient.getBalance() + "\n");
+                "\n\n||RECIPIENT||\n" + "ID: " + recipient.getID() + "\nName: " + recipient.getName() + "\nBalance: " + recipient.getBalance() +
+                "\n==================\n";
     }
 }

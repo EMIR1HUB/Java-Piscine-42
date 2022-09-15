@@ -1,2 +1,6 @@
-package PACKAGE_NAME;public class TransactionListEmptyException {
+public class TransactionListEmptyException extends RuntimeException {
+    @Override
+    public String toString() {
+        return "Список транзакций пуст";
+    }
 }

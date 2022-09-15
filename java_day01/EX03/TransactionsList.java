@@ -1,7 +1,7 @@
 import java.util.UUID;
 
-public interface TransactionList {
-    public void add(Transaction transaction);
-    public void remove(UUID id);
-    public void transformArray(Transaction[] transactions);
+public interface TransactionsList {
+    public void addTransaction(Transaction transaction);
+    public void removeTransaction(UUID id);
+    public Transaction[] toArray();
 }

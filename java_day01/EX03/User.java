@@ -3,11 +3,13 @@ public class User {
     private String name;
     private int balance;
     private String transferType;
+    private TransactionsLinkedList transactionsLinkedList;
 
     public User(String name, int balance) {
         this.ID = UserIdsGenerator.getInstance().generateId();
         this.name = name;
         this.balance = balance;
+        transactionsLinkedList = new TransactionsLinkedList();
     }
 
     public int getID() {
@@ -34,8 +36,12 @@ public class User {
         return transferType;
     }
 
-    public void printConsole() {
-        System.out.format("\nID: %d\nName: %s\nBalance: %d\n", ID, name, balance);
+    public void setTransactionsLinkedList(TransactionsLinkedList transactionsLinkedList) {
+        this.transactionsLinkedList = transactionsLinkedList;
+    }
+
+    public TransactionsLinkedList getTransactionsLinkedList() {
+        return transactionsLinkedList;
     }
 
     @Override
