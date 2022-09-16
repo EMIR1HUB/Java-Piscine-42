@@ -44,7 +44,10 @@ public class TransactionsService {
         }
         Transaction[] unpairedTransactionsArray = new Transaction[unpairedTransactionsCount];
         int position = 0;
-
+        for (int count = 0; count < userDataBase.getAmountUser(); count++) {
+            position = addTransactionsUserToArrayPosition(userDataBase.findUserIndex(count),
+                    unpairedTransactionsArray, position);
+        }
         return unpairedTransactionsArray;
     }
 
