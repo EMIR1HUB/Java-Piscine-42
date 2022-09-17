@@ -1,7 +1,7 @@
 // Шаблон Singleton(Одиночка)
 public class UserIdsGenerator {
     private static UserIdsGenerator instanse = null; // Статический объект
-    private static int id = 0;
+    private static int id = 1;
     private UserIdsGenerator() {}
 
     public static UserIdsGenerator getInstance() {

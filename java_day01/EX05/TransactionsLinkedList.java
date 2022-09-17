@@ -38,6 +38,18 @@ public class TransactionsLinkedList implements TransactionsList {
     }
 
     @Override
+    public Transaction findTransactionByID(UUID ID) {
+        TransactionNode currentTransaction = head;
+        while (currentTransaction != null) {
+            if (currentTransaction.getData().getUID().equals(ID)) {
+                return currentTransaction.getData();
+            }
+            currentTransaction = currentTransaction.getNext();
+        }
+        throw new TransactionNotFoundException();
+    }
+
+    @Override
     public Transaction[] toArray() {
         Transaction[] retArray = new Transaction[length];
         TransactionNode currentTransaction = head;

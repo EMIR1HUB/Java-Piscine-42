@@ -7,20 +7,30 @@ public class TransactionsService {
         userDataBase = new UsersArrayList();
     }
 
+    public UsersList getUserDataBase() {
+        return userDataBase;
+    }
+
     public void addUser(User user) {
         userDataBase.addUser(user);
     }
 
-    public User retrieveUserBalance(User user) {
-        User userData = userDataBase.findUserID(user.getID());
-        return userData;
+    public int retrieveUserBalance(int userID) {
+        User userData = userDataBase.findUserID(userID);
+        return userData.getBalance();
     }
 
-    public TransactionsLinkedList retrieveUserTransaction(User user) {
-        User userData = userDataBase.findUserID(user.getID());
-        TransactionsLinkedList arr = userData.getTransactionsLinkedList();
-        return arr;
+
+    public Transaction[] retrieveUserTransaction(int userID) {
+        User userData = userDataBase.findUserID(userID);
+        return userData.getTransactionsLinkedList().toArray();
     }
+
+//    public TransactionsLinkedList retrieveUserTransaction(int userID) {
+//        User userData = userDataBase.findUserID(userID);
+//        TransactionsLinkedList arr = userData.getTransactionsLinkedList();
+//        return arr;
+//    }
 
     public void removeTransactionFromUser(int userID, UUID transactionID) {
         User user = userDataBase.findUserID(userID);
