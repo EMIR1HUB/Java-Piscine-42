@@ -1,9 +1,11 @@
 import java.io.FileInputStream;
-import java.security.Signature;
 
-public class Sgnature {
+public class Signature {
 
-    public static Signature createFromSignatureFile(FileInputStream inputStream){
+    public Signature() {
+    }
 
+    public static Signature createFromSignatureFile(FileInputStream inputStream) {
+        return new Signature();
     }
 }
