@@ -1,7 +1,9 @@
+import java.util.ArrayList;
 import java.util.Random;
 
 public class Program {
     private static final int MAX_MODULO = 1000;
+    public static int threadSum = 0;
 
     private static void displayArraySum(Integer[] arr) {
         int suma = 0;
@@ -43,7 +45,27 @@ public class Program {
 
         Integer[] arr = createArr(arraySize);
         displayArraySum(arr);
+        int sectionSize = arraySize / threadsCount;
+        int start = 0;
+        int end = sectionSize;
+        ArrayList<Thread> threads = new ArrayList<>();
 
-
+        for (int i = 0; i < threadsCount - 1; i++) {
+            threads.add(new Thread(new ThreadSuma(i + 1, start, end, arr)));
+            start += sectionSize + 1;
+            end += start;
+        }
+        threads.add(new Thread(new ThreadSuma(threadsCount, start, arraySize - 1, arr)));
+        for (Thread thread : threads) {
+            thread.start();
+        }
+        for (Thread thread : threads) {
+            try {
+                thread.join();
+            } catch (InterruptedException e) {
+                throw new RuntimeException(e);
+            }
+        }
+        System.out.println("Sum by threads: " + threadSum);
     }
 }
