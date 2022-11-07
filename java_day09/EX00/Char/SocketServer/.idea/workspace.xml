@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="08955308-95aa-4160-9473-6201064f129c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../../../java_day08/EX02/.idea/libraries/Maven__antlr_antlr_2_7_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../java_day08/EX02/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../java_day08/EX02/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../java_day08/EX02/.idea/libraries/Maven__com_fasterxml_classmate_1_5_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../java_day08/EX02/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_13_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../java_day08/EX02/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_13_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../java_day08/EX02/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_13_4_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../java_day08/EX02/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_13_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../java_day08/EX02/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_13_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../java_day08/EX02/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_13_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../java_day08/EX02/.idea/libraries/Maven__com_h2database_h2_2_1_214.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../java_day08/EX02/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_7_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../java_day08/EX02/.idea/libraries/Maven__com_sun_istack_istack_commons_runtime_3_0_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../java_day08/EX02/.idea/libraries/Maven__com_sun_xml_fastinfoset_FastInfoset_1_2_15.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../java_day08/EX02/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../java_day08/EX02/.idea/libraries/Maven__jakarta_activation_jakarta_activation_api_1_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../java_day08/EX02/.idea/libraries/Maven__jakarta_annotation_jakarta_annotation_api_1_3_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../java_day08/EX02/.idea/libraries/Maven__jakarta_persistence_jakarta_persistence_api_2_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../java_day08/EX02/.idea/libraries/Maven__jakarta_transaction_jakarta_transaction_api_1_3_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../java_day08/EX02/.idea/libraries/Maven__jakarta_xml_bind_jakarta_xml_bind_api_2_3_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../java_day08/EX02/.idea/libraries/Maven__junit_junit_4_13_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../java_day08/EX02/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_12_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../java_day08/EX02/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_12_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../java_day08/EX02/.idea/libraries/Maven__net_minidev_accessors_smart_2_4_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../java_day08/EX02/.idea/libraries/Maven__net_minidev_json_smart_2_4_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../java_day08/EX02/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_17_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../java_day08/EX02/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_17_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../java_day08/EX02/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_68.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../java_day08/EX02/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_9_0_68.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../java_day08/EX02/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_68.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../java_day08/EX02/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../java_day08/EX02/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_9_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../java_day08/EX02/.idea/libraries/Maven__org_assertj_assertj_core_3_22_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../java_day08/EX02/.idea/libraries/Maven__org_glassfish_jaxb_jaxb_runtime_2_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../java_day08/EX02/.idea/libraries/Maven__org_glassfish_jaxb_txw2_2_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../java_day08/EX02/.idea/libraries/Maven__org_hamcrest_hamcrest_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../java_day08/EX02/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../java_day08/EX02/.idea/libraries/Maven__org_hibernate_common_hibernate_commons_annotations_5_1_2_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../java_day08/EX02/.idea/libraries/Maven__org_hibernate_hibernate_core_5_6_12_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../java_day08/EX02/.idea/libraries/Maven__org_jboss_jandex_2_4_2_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../java_day08/EX02/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_4_3_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../java_day08/EX02/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_5_8_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../java_day08/EX02/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_9_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../java_day08/EX02/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_9_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../java_day08/EX02/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_params_5_9_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../java_day08/EX02/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_9_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../java_day08/EX02/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_9_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../java_day08/EX02/.idea/libraries/Maven__org_junit_platform_junit_platform_launcher_1_9_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../java_day08/EX02/.idea/libraries/Maven__org_junit_platform_junit_platform_runner_1_9_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../java_day08/EX02/.idea/libraries/Maven__org_junit_platform_junit_platform_suite_api_1_9_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../java_day08/EX02/.idea/libraries/Maven__org_junit_platform_junit_platform_suite_commons_1_9_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../java_day08/EX02/.idea/libraries/Maven__org_jvnet_staxex_stax_ex_1_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../java_day08/EX02/.idea/libraries/Maven__org_mockito_mockito_core_4_5_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../java_day08/EX02/.idea/libraries/Maven__org_mockito_mockito_junit_jupiter_4_5_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../java_day08/EX02/.idea/libraries/Maven__org_objenesis_objenesis_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../java_day08/EX02/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../java_day08/EX02/.idea/libraries/Maven__org_ow2_asm_asm_9_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../java_day08/EX02/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_5_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../java_day08/EX02/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_36.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../java_day08/EX02/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_7_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../java_day08/EX02/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_7_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../java_day08/EX02/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_7_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../java_day08/EX02/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_aop_2_7_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../java_day08/EX02/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_jpa_2_7_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../java_day08/EX02/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_7_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../java_day08/EX02/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_7_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../java_day08/EX02/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_7_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../java_day08/EX02/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_7_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../java_day08/EX02/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_7_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../java_day08/EX02/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_7_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../java_day08/EX02/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_7_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../java_day08/EX02/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_7_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../java_day08/EX02/.idea/libraries/Maven__org_springframework_data_spring_data_commons_2_7_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../java_day08/EX02/.idea/libraries/Maven__org_springframework_data_spring_data_jpa_2_7_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../java_day08/EX02/.idea/libraries/Maven__org_springframework_spring_aspects_5_3_23.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../java_day08/EX02/.idea/libraries/Maven__org_springframework_spring_orm_5_3_23.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../java_day08/EX02/.idea/libraries/Maven__org_springframework_spring_test_5_3_23.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../java_day08/EX02/.idea/libraries/Maven__org_springframework_spring_web_5_3_23.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../java_day08/EX02/.idea/libraries/Maven__org_springframework_spring_webmvc_5_3_23.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../java_day08/EX02/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_9_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../java_day08/EX02/.idea/libraries/Maven__org_yaml_snakeyaml_1_30.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../java_day08/EX02/src/test/java/edu/school21/spring/service/config/TestApplicationConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../java_day08/EX02/src/test/java/edu/school21/spring/service/services/UsersServiceImplTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../java_day08/EX02/src/test/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ClientServer/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ClientServer/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ClientServer/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ClientServer/ClientServer.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ClientServer/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ClientServer/src/main/java/edu.school21.sockets/app/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ClientServer/src/main/java/edu.school21.sockets/client/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu.school21.sockets/app/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu.school21.sockets/server/Server.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/db.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../java_day08/EX02/.idea/EX00.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../java_day08/EX02/.idea/EX00.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../java_day08/EX02/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../java_day08/EX02/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../java_day08/EX02/src/main/java/edu/school21/spring/service/models/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../java_day08/EX02/src/main/java/edu/school21/spring/service/models/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../java_day08/EX02/src/main/java/edu/school21/spring/service/repositories/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../java_day08/EX02/src/main/java/edu/school21/spring/service/repositories/UserMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../java_day08/EX02/src/main/java/edu/school21/spring/service/repositories/UsersRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../java_day08/EX02/src/main/java/edu/school21/spring/service/repositories/UsersRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../java_day08/EX02/src/main/java/edu/school21/spring/service/services/UsersService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../java_day08/EX02/src/main/java/edu/school21/spring/service/services/UsersService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../java_day08/EX02/src/main/java/edu/school21/spring/service/services/UsersServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../java_day08/EX02/src/main/java/edu/school21/spring/service/services/UsersServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../java_day08/EX02/target/classes/edu/school21/spring/service/application/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../java_day08/EX02/target/classes/edu/school21/spring/service/application/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../java_day08/EX02/target/classes/edu/school21/spring/service/models/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../java_day08/EX02/target/classes/edu/school21/spring/service/models/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../java_day08/EX02/target/classes/edu/school21/spring/service/repositories/UserMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../java_day08/EX02/target/classes/edu/school21/spring/service/repositories/UserMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../java_day08/EX02/target/classes/edu/school21/spring/service/repositories/UsersRepositoryJdbcImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../java_day08/EX02/target/classes/edu/school21/spring/service/repositories/UsersRepositoryJdbcImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../java_day08/EX02/target/classes/edu/school21/spring/service/repositories/UsersRepositoryJdbcTemplateImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../java_day08/EX02/target/classes/edu/school21/spring/service/repositories/UsersRepositoryJdbcTemplateImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../java_day08/EX02/target/classes/edu/school21/spring/service/services/UsersServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../java_day08/EX02/target/classes/edu/school21/spring/service/services/UsersServiceImpl.class" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2H5cnj50KLPAY7pMXcniilAewDc" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/my_desktop/JAVA_Project/Java-Piscine-42/src/java_day08/EX01/src/main/resources/db.properties",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.4091954",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "spring.configuration.checksum": "0f254ae39ad3fe9b4005f76cffc888e0"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "postgresql"
+    ]
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\my_desktop\JAVA_Project\Java-Piscine-42\src\java_day09\EX00\Char\SocketServer\src\main\resources" />
+      <recent name="C:\рабочий_стол\JAVA_Project\Java-Piscine-42\src\java_day09\EX00\Char\SocketServer\src\main\java" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="edu.school21.sockets.repositories" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="$PROJECT_DIR$/../../../../../../../../JDK18" />
+      <option name="MAIN_CLASS_NAME" value="edu.school21.sockets.app.Main" />
+      <module name="SocketServer" />
+      <option name="PROGRAM_PARAMETERS" value="--port=8081" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.school21.sockets.app.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="08955308-95aa-4160-9473-6201064f129c" name="Changes" comment="" />
+      <created>1667578555824</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1667578555824</updated>
+      <workItem from="1667578557683" duration="2408000" />
+      <workItem from="1667581217638" duration="1267000" />
+      <workItem from="1667582958753" duration="5301000" />
+      <workItem from="1667754058350" duration="9952000" />
+      <workItem from="1667771346285" duration="3753000" />
+      <workItem from="1667831606744" duration="5904000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

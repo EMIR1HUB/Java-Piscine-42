@@ -1,7 +1,5 @@
 package edu.school21.spring.service.models;
 
-import java.util.UUID;
-
 public class User {
     private Long id;
     private String email;

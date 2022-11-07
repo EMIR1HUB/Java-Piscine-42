@@ -2,11 +2,9 @@ package edu.school21.spring.service.services;
 
 import edu.school21.spring.service.models.User;
 import edu.school21.spring.service.repositories.UsersRepository;
-import edu.school21.spring.service.repositories.UsersRepositoryJdbcImpl;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Component;
-import org.springframework.stereotype.Service;
 
 import java.util.UUID;
 
